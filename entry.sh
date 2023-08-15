@@ -35,7 +35,7 @@ else
 fi
 
 # When building our prebake, we use this flag to install and quit
-if [ ${PREBAKE}=="true" ]; 
+if [ ${PREBAKE} ]; 
 then
 	echo "Prebake complete, exiting"
 	exit
