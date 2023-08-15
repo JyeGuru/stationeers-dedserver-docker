@@ -23,7 +23,7 @@
 
 # https://stationeers-wiki.com/Dedicated_Server_Guide
 
-FROM cm2network/steamcmd:root
+FROM docker.io/cm2network/steamcmd:root
 
 LABEL maintainer="gavin.jones.nz@gmail.com"
 
